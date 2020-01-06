@@ -1,0 +1,10 @@
+.NavButton{
+    text-align: center;
+    color: black;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: cadetblue;
+}
