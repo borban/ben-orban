@@ -1,15 +1,15 @@
 import React, {Component} from 'react';
-import NavBar from "./NavBar";
+import NavBar from "../navigation/NavBar";
 import Content from "./Content";
 import {Route, Switch} from "react-router";
 import "./Layout.css";
 import Loading from "./Loading";
 
-const Home = React.lazy(() => import("./Home"));
-const Skills = React.lazy(() => import("./Skills"));
-const Experience = React.lazy(() => import("./Experience"));
-const Accomplishments = React.lazy(() => import("./Accomplishments"));
-const GitHub = React.lazy(() => import("./GitHub"));
+const Home = React.lazy(() => import("../pages/Home"));
+const Skills = React.lazy(() => import("../pages/Skills"));
+const Experience = React.lazy(() => import("../pages/Experience"));
+const Accomplishments = React.lazy(() => import("../pages/Accomplishments"));
+const GitHub = React.lazy(() => import("../pages/GitHub"));
 
 class Layout extends Component {
 
