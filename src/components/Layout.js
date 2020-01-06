@@ -1,20 +1,28 @@
 import React, {Component} from 'react';
-import NavButton from "./NavButton";
+import NavBar from "./NavBar";
+import Content from "./Content";
+import {Route, Switch} from "react-router";
+import Home from "./Home";
+import Skills from "./Skills";
+import Experience from "./Experience";
+import Accomplishments from "./Accomplishments";
+import GitHub from "./GitHub";
 
 class Layout extends Component {
 
     render() {
-        const navHome = () => {
-            alert("Navigated Home!")
-        };
-
         return (
             <div>
-                <NavButton label="Home" navigate={navHome}/>
-                <NavButton label="Skills" navigate={navHome}/>
-                <NavButton label="Experience" navigate={navHome}/>
-                <NavButton label="Accomplishments"navigate={navHome}/>
-                <NavButton label="GitHub" navigate={navHome}/>
+                <NavBar/>
+                <Content>
+                    <Switch>
+                        <Route path="/skills" component={Skills}/>
+                        <Route path="/experience" component={Experience}/>
+                        <Route path="/accomplishments" component={Accomplishments}/>
+                        <Route path="/github" component={GitHub}/>
+                        <Route path="/home" component={Home}/>
+                    </Switch>
+                </Content>
             </div>
         );
     }

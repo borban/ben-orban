@@ -7,4 +7,15 @@
     display: inline-block;
     font-size: 16px;
     background-color: cadetblue;
+    cursor: pointer;
+    opacity: 100%;
+    outline: 0;
+}
+
+.NavButton:hover{
+    opacity: 80%;
+}
+
+.NavButton:active{
+    background-color: white;
 }

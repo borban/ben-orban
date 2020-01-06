@@ -1,14 +1,13 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './NavButton.css';
+import {Link} from "react-router-dom";
 
-class NavButton extends Component {
-    render() {
-        return (
-            <div className="NavButton" onClick={this.props.navigate}>
-                {this.props.label}
-            </div>
-        );
-    }
-}
+const NavButton = props => {
+    return (
+        <Link className="NavButton" to={props.path}>
+            {props.label}
+        </Link>
+    );
+};
 
 export default NavButton;
