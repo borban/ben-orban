@@ -1,9 +1,370 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f03ec9f5-e269-4b64-9a5b-6a53f199cef7" name="Default Changelist" comment="Ignore idea">
+      <change afterPath="$PROJECT_DIR$/src/components/pages/home/MainBanner.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/pages/home/MainBanner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Loading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/pages/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pages/home/Home.js" afterDir="false" />
+    </list>
+    <list id="52bd685d-b945-442e-a7f7-c31425c1a32c" name="Ignored" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" show_ignored="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VzniHPGQcQU8cN4lTgsGNJJ85Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/pages/home" />
+      <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src/components/common" />
+      <recent name="$PROJECT_DIR$/src/components/pages" />
+      <recent name="$PROJECT_DIR$/src/components/navigation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f03ec9f5-e269-4b64-9a5b-6a53f199cef7" name="Default Changelist" comment="" />
+      <changelist id="52bd685d-b945-442e-a7f7-c31425c1a32c" name="Ignored" comment="" />
+      <created>1578264916709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578264916709</updated>
+      <workItem from="1578264918465" duration="2549000" />
+      <workItem from="1578323751825" duration="2304000" />
+      <workItem from="1578336526666" duration="5921000" />
+      <workItem from="1578349043627" duration="5696000" />
+      <workItem from="1578359826865" duration="3405000" />
+    </task>
+    <task id="LOCAL-00001" summary="Ignore IDEA">
+      <created>1578265397561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578265397561</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Change website name">
+      <created>1578265794249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578265794249</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Remove startup files">
+      <created>1578268562314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578268562314</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ignore idea">
+      <created>1578268606552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578268606552</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ignore idea">
+      <created>1578323605659</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578323605659</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add NavButton.js">
+      <created>1578323905419</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578323905419</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Ignore idea">
+      <created>1578324345660</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578324345660</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initial commit - has navbar">
+      <created>1578325991075</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578325991076</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Dummy data">
+      <created>1578326038482</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578326038482</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added navbar with react-router implementation.">
+      <created>1578344346051</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1578344346051</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Lazy loading">
+      <created>1578353021674</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1578353021674</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Refactor">
+      <created>1578353558667</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578353558667</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Adding media queries">
+      <created>1578354727344</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578354727344</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Going with a new palette.">
+      <created>1578354751719</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578354751719</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Remove opacity">
+      <created>1578354921791</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578354921791</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Make home folder">
+      <created>1578355298724</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1578355298724</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Spinner flourish">
+      <created>1578355980568</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578355980568</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Adding overview and some CSS tweaks.">
+      <created>1578357128944</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1578357128944</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Adding default path">
+      <created>1578359893775</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1578359893775</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fixing the footer!">
+      <created>1578360144029</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1578360144029</updated>
+    </task>
+    <task id="LOCAL-00021" summary="CSS tweaks">
+      <created>1578360657170</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1578360657170</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Adding style to content component">
+      <created>1578360675720</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1578360675720</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Remove icon">
+      <created>1578361490756</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1578361490756</updated>
+    </task>
+    <task id="LOCAL-00024" summary="CSS adjustments and removing overview component">
+      <created>1578361518096</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1578361518096</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Adding a decent background, some texture to the navbard and footer, as well as changing the color scheme.">
+      <created>1578362309110</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1578362309110</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ignore IDEA" />
+    <MESSAGE value="Change website name" />
+    <MESSAGE value="Remove startup files" />
+    <MESSAGE value="Add NavButton.js" />
+    <MESSAGE value="Ignore idea" />
+    <MESSAGE value="Initial commit - has navbar" />
+    <MESSAGE value="Dummy data" />
+    <MESSAGE value="Added navbar with react-router implementation." />
+    <MESSAGE value="Lazy loading" />
+    <MESSAGE value="Refactor" />
+    <MESSAGE value="Adding media queries" />
+    <MESSAGE value="Going with a new palette." />
+    <MESSAGE value="Remove opacity" />
+    <MESSAGE value="Make home folder" />
+    <MESSAGE value="Spinner flourish" />
+    <MESSAGE value="Adding overview and some CSS tweaks." />
+    <MESSAGE value="Adding default path" />
+    <MESSAGE value="Fixing the footer!" />
+    <MESSAGE value="CSS tweaks" />
+    <MESSAGE value="Adding style to content component" />
+    <MESSAGE value="Remove icon" />
+    <MESSAGE value="CSS adjustments and removing overview component" />
+    <MESSAGE value="Adding a decent background, some texture to the navbard and footer, as well as changing the color scheme." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding a decent background, some texture to the navbard and footer, as well as changing the color scheme." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1005" y="128" width="860" height="805" key="CommitChangelistDialog2" timestamp="1578362309026">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state x="1005" y="128" width="860" height="805" key="CommitChangelistDialog2/0.27.1920.1009@0.27.1920.1009" timestamp="1578362309026" />
+    <state x="1094" y="127" width="726" height="809" key="DiffContextDialog" timestamp="1578341048750">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state x="1094" y="127" width="726" height="809" key="DiffContextDialog/0.27.1920.1009@0.27.1920.1009" timestamp="1578341048750" />
+    <state width="937" height="264" key="GridCell.Tab.0.bottom" timestamp="1578361472713">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state width="937" height="264" key="GridCell.Tab.0.bottom/0.27.1920.1009@0.27.1920.1009" timestamp="1578361472713" />
+    <state width="937" height="264" key="GridCell.Tab.0.center" timestamp="1578361472712">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state width="937" height="264" key="GridCell.Tab.0.center/0.27.1920.1009@0.27.1920.1009" timestamp="1578361472712" />
+    <state width="937" height="264" key="GridCell.Tab.0.left" timestamp="1578361472711">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state width="937" height="264" key="GridCell.Tab.0.left/0.27.1920.1009@0.27.1920.1009" timestamp="1578361472711" />
+    <state width="937" height="264" key="GridCell.Tab.0.right" timestamp="1578361472712">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state width="937" height="264" key="GridCell.Tab.0.right/0.27.1920.1009@0.27.1920.1009" timestamp="1578361472712" />
+    <state x="467" y="184" key="SettingsEditor" timestamp="1578340390364">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state x="467" y="184" key="SettingsEditor/0.27.1920.1009@0.27.1920.1009" timestamp="1578340390364" />
+    <state x="1295" y="448" width="303" height="162" key="VCS.ChangelistChooser" timestamp="1578324276694">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state x="1295" y="448" width="303" height="162" key="VCS.ChangelistChooser/0.27.1920.1009@0.27.1920.1009" timestamp="1578324276694" />
+    <state x="1324" y="449" width="256" height="162" key="VCS.EditChangelistDialog" timestamp="1578323864041">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state x="1324" y="449" width="256" height="162" key="VCS.EditChangelistDialog/0.27.1920.1009@0.27.1920.1009" timestamp="1578323864040" />
+    <state x="1035" y="267" width="800" height="526" key="Vcs.Push.Dialog.v2" timestamp="1578362310579">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state x="1035" y="267" width="800" height="526" key="Vcs.Push.Dialog.v2/0.27.1920.1009@0.27.1920.1009" timestamp="1578362310579" />
+    <state x="1115" y="248" width="672" height="678" key="search.everywhere.popup" timestamp="1578353872505">
+      <screen x="0" y="27" width="1920" height="1009" />
+    </state>
+    <state x="1115" y="248" width="672" height="678" key="search.everywhere.popup/0.27.1920.1009@0.27.1920.1009" timestamp="1578353872505" />
   </component>
 </project>

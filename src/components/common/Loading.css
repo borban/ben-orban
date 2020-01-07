@@ -3,10 +3,18 @@
     position: relative;
     width: 80px;
     height: 80px;
-    background-color: #6497b1;
-    margin-top: 10px;
+    background-color: #699ed2;
+    background-image: url("/cardboard.png");
     margin-bottom: 5px;
+    top: 50%;
+    /* adjust top up half the height of a single line */
+    margin-top: 15px;
+    /* force content to always be a single line */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
+
 .lds-default div {
     position: absolute;
     width: 6px;
