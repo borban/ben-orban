@@ -25,6 +25,7 @@ class Layout extends Component {
                         <Route path="/accomplishments" component={Loading(Accomplishments)}/>
                         <Route path="/github" component={Loading(GitHub)}/>
                         <Route path="/home" component={Loading(Home)}/>
+                        <Route path="/" component={Loading(Home)}/>
                     </Switch>
                 </Content>
                 <Footer/>
