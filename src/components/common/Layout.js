@@ -6,7 +6,7 @@ import "./Layout.css";
 import Loading from "./Loading";
 import Footer from "./Footer";
 
-const Home = React.lazy(() => import("../pages/Home"));
+const Home = React.lazy(() => import("../pages/home/Home"));
 const Skills = React.lazy(() => import("../pages/Skills"));
 const Experience = React.lazy(() => import("../pages/Experience"));
 const Accomplishments = React.lazy(() => import("../pages/Accomplishments"));
