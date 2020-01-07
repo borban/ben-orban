@@ -1,4 +1,5 @@
 .Home{
+    display: inline-block;
     background-color: #03396c;
-    height: 100%;
+    align-content: center;
 }
