@@ -6,7 +6,8 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    background-color: #6497b1;
+    background-color: #699ed2;
+    background-image: url("/cardboard.png");
     cursor: pointer;
     outline: 0;
 }

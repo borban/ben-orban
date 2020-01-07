@@ -3,7 +3,8 @@
     bottom: 0;
     width: 100%;
     height: 2.5rem;
-    background-color: #6497b1;
+    background-color: #699ed2;
+    background-image: url("/cardboard.png");
     text-align: center;
     border: none;
     display: inline-block;

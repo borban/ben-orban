@@ -3,4 +3,5 @@
     padding-bottom: 2.5rem;    /* Footer height */
     position: relative;
     min-height: 100vh;
+    background-image: url("/blue-abstract.jpg");
 }
