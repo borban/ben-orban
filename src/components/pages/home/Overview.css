@@ -1,6 +1,8 @@
 .Overview{
     text-align: center;
     height: 150px;
-    width: 150px;
+    width: 100%;
     background-color: #b3cde0;
+    border: 1px solid black;
+    box-shadow: 5px 5px;
 }
