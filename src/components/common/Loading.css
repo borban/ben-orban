@@ -6,7 +6,7 @@
     background-color: #699ed2;
     background-image: url("/cardboard.png");
     margin-bottom: 5px;
-    top: 50%;
+    top: 5%;
     /* adjust top up half the height of a single line */
     margin-top: 15px;
     /* force content to always be a single line */
