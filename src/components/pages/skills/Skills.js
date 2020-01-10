@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class Accomplishments extends Component {
+class Skills extends Component {
     render() {
         return (
             <div>
-                
+                TODO: Build this component
             </div>
         );
     }
 }
 
-export default Accomplishments;
+export default Skills;

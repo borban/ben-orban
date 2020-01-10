@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class Experience extends Component {
+class GitHub extends Component {
     render() {
         return (
             <div>
-                
+                TODO: Build this component
             </div>
         );
     }
 }
 
-export default Experience;
+export default GitHub;

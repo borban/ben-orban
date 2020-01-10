@@ -8,10 +8,10 @@ import Footer from "./Footer";
 import ContentLine from "./ContentLine";
 
 const Home = React.lazy(() => import("../pages/home/Home"));
-const Skills = React.lazy(() => import("../pages/Skills"));
-const Experience = React.lazy(() => import("../pages/Experience"));
-const Accomplishments = React.lazy(() => import("../pages/Accomplishments"));
-const GitHub = React.lazy(() => import("../pages/GitHub"));
+const Skills = React.lazy(() => import("../pages/skills/Skills"));
+const Experience = React.lazy(() => import("../pages/experience/Experience"));
+const Accomplishments = React.lazy(() => import("../pages/accomplishments/Accomplishments"));
+const GitHub = React.lazy(() => import("../pages/github/GitHub"));
 
 class Layout extends Component {
 
