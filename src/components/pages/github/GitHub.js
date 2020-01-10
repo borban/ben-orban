@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import Banner from "../../common/Banner";
 
 class GitHub extends Component {
     render() {
         return (
             <div>
-                TODO: Build this component
+                <Banner>TODO: Build this component</Banner>
             </div>
         );
     }

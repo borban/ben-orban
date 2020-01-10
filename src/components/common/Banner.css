@@ -1,4 +1,4 @@
-.MainBanner{
+.Banner{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13,6 +13,6 @@
     background-image: url("/cardboard.png");
 }
 
-.MainBannerContent {
+.BannerContent {
     padding: 20px;
 }
