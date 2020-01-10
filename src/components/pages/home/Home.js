@@ -6,7 +6,7 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <MainBanner>This is the main banner...</MainBanner>
+                <MainBanner>My quote</MainBanner>
             </div>
         );
     }

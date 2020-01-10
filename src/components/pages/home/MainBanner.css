@@ -1,12 +1,18 @@
 .MainBanner{
-    height: 300px;
-    position: absolute;
-    top:35px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     background-color: #699ed2;
     background-image: url("/cardboard.png");
+}
+
+.MainBannerContent {
+    padding: 20px;
 }

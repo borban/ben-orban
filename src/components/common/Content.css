@@ -1,8 +1,7 @@
 .Content{
-    display: inline-block;
-    flex: 1 0 auto;
     padding-bottom: 2.5rem;    /* Footer height */
+    height: 100vh;
+    margin: 0;
     position: relative;
-    min-height: 100vh;
     background-image: url("/blue-abstract.jpg");
 }

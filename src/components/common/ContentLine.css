@@ -1,0 +1,7 @@
+.ContentLine{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 30px;
+    background-image: url("/blue-abstract.jpg");
+}

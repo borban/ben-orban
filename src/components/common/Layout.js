@@ -5,6 +5,7 @@ import {Route, Switch} from "react-router";
 import "./Layout.css";
 import Loading from "./Loading";
 import Footer from "./Footer";
+import ContentLine from "./ContentLine";
 
 const Home = React.lazy(() => import("../pages/home/Home"));
 const Skills = React.lazy(() => import("../pages/Skills"));
@@ -18,6 +19,7 @@ class Layout extends Component {
         return (
             <div className="Layout">
                 <NavBar/>
+                <ContentLine/>
                 <Content>
                     <Switch>
                         <Route path="/skills" component={Loading(Skills)}/>
